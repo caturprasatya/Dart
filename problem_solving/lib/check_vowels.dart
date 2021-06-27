@@ -1,6 +1,6 @@
 import 'dart:io';
 
-main(List<String> args) {
+void main(List<String> args) {
   stdout.write('Check Vowel: ');
   print(checkVowel(stdin.readLineSync().toString()));
 }
