@@ -1,6 +1,6 @@
 import 'package:problem_solving/palindrome.dart';
 
-main() {
+void main() {
   String word = 'pip';
   String reverse_word = palindrome(word);
   if (reverse_word == word) {
