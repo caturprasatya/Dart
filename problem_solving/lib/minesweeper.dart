@@ -19,6 +19,13 @@ void solve_board(List list) {
         temporary += list[i][j];
       }
     }
-    print('|$temporary|');
+
+    if (i == 0) {
+      print('========');
+    } else if (i == list.length - 1) {
+      print('========');
+    } else {
+      print('|$temporary|');
+    }
   }
 }

@@ -24,6 +24,7 @@ void main(List<String> arguments) {
     grade = 'E';
   } else {
     print('Invaid Data');
+    return ;
   }
 
   print('Guru Pengampu: $namaGuru');
